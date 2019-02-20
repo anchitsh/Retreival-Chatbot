@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","yo"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","okay"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "about",
+         "patterns": ["What is indigm?", "Tell me about indigm?", "what do you do?", "what is indigm about", "Tell me more" ],
+         "responses": ["Indigm is a global business and technology consulting firm. We partner with our clients to work on the most challenging issues that business face today. Our teams fully participate with our clients to understand the real business issues and provide practical, realistic and implementable recommendations that are backed by research based analytical data."]
+        },
+        {"tag": "services",
+         "patterns": ["what are your services?", "What does indigm do?", "tell me about your services?","" ],
+         "responses": ["Indigm provides expertise in Technology, Business, process consulting"]
+        },
+        {"tag": "Technology",
+         "patterns": ["what technology expertise?", "tell me about your technology expertise?", "what is technology expertise?" ],
+         "responses": ["Our technology team comprises of Data Scientists who slice and dice data for business intelligence and predictive and text analytics."]
+        },
+        {"tag": "owner",
+         "patterns": ["who owns indigm", "who is responsible?", "who is the ceo of indigm?"],
+         "responses": ["abhishek sharma is the CEO and president of Indigm"]
+        }
+        ,
+        {"tag": "More",
+         "patterns": ["more help", "can i talk to a human", "Give me more information"],
+         "responses": ["A human will get in touch with you."]
+        }
+   ]
+}
